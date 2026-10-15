@@ -24,3 +24,15 @@ I work directly with every client, explain things in plain English, and don't lo
 - 💼 [LinkedIn](https://www.linkedin.com/in/nickbeske/)
 
 <sub>Most of my repositories are private client and operations work.</sub>
+
+<!-- STATS-START -->
+<!-- Stats will be populated on next update -->
+<!-- STATS-END -->
+
+<!-- CONTRIBUTIONS-START -->
+<!-- CONTRIBUTIONS-END -->
+
+---
+
+<!-- UPDATED-START -->
+<!-- UPDATED-END -->
