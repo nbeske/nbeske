@@ -30,7 +30,7 @@ I work directly with every client, explain things in plain English, and don't lo
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 0h | 6.6h | 45.4h | ~5524h* |
+| Screen time (Mac) | unavailable | 6.6h | 45.4h | ~5524h* |
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Interactive AI generation | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -39,7 +39,7 @@ I work directly with every client, explain things in plain English, and don't lo
 | Interactive sessions | 0 | 0 | 0 | 0 |
 | Worker sessions | 4 | 29 | 66 | 66 |
 
-_Screen time from screen-time-history:daily-observations; collection status: stale. *365-day estimate uses observed calendar coverage._
+_Screen time from screen-time-history:daily-observations; collection status: stale, unavailable. *365-day estimate uses observed calendar coverage._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
@@ -80,7 +80,7 @@ _6,215.1M total tokens processed. 95.9% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-23 11:34 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-23 17:51 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
