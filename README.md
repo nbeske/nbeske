@@ -34,10 +34,10 @@ I work directly with every client, explain things in plain English, and don't lo
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Interactive AI generation | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
-| Worker/headless AI generation | 2.7h | 9.1h | 17.5h | 17.5h |
-| Additive observed work | 2.7h | 9.1h | 17.5h | 17.5h |
+| Worker/headless AI generation | 0.0h | 9.1h | 17.5h | 17.5h |
+| Additive observed work | 0.0h | 9.1h | 17.5h | 17.5h |
 | Interactive sessions | 0 | 0 | 0 | 0 |
-| Worker sessions | 5 | 27 | 71 | 71 |
+| Worker sessions | 0 | 27 | 71 | 71 |
 
 _Screen time from screen-time-history:daily-observations; collection status: stale, unavailable. *365-day estimate uses observed calendar coverage._
 
@@ -80,7 +80,7 @@ _7,439.6M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-25 00:54 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-25 07:08 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
