@@ -37,7 +37,7 @@ I work directly with every client, explain things in plain English, and don't lo
 | Worker/headless AI generation | 1.4h | 10.8h | 23.3h | 23.3h |
 | Additive observed work | 1.4h | 10.8h | 23.3h | 23.3h |
 | Interactive sessions | 0 | 0 | 0 | 0 |
-| Worker sessions | 6 | 32 | 94 | 94 |
+| Worker sessions | 7 | 33 | 95 | 95 |
 
 _Screen time from screen-time-history:daily-observations; collection status: stale, unavailable. *365-day estimate uses observed calendar coverage._
 
@@ -51,27 +51,27 @@ _AI session 365-day totals cover 23 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 39,725 | 1.6M | 28.7M | 8,537.0M | 393.2M | 95.6% | 86 | 127.1h |
+| claude-opus-5-5 | 40,090 | 1.6M | 29.0M | 8,583.0M | 395.6M | 95.6% | 87 | 127.9h |
 | gpt-5.5 | 1,655 | 6.4M | 558K | 112.7M | 0 | 94.6% | 6 | 2.5h |
 | gpt-6.1-sol | 368 | 2.9M | 63K | 121.2M | 0 | 97.7% | 1 | 0.4h |
 | claude-haiku-5-5 | 191 | 440 | 72K | 7.7M | 901K | 89.6% | 5 | 0.5h |
 | gpt-6-luna | 7 | 64K | 35 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **41,946** | **10.9M** | **29.4M** | **8,778.8M** | **394.1M** | **95.6%** | **94** | **130.5h** |
+| **Total** | **42,311** | **11.0M** | **29.7M** | **8,824.8M** | **396.5M** | **95.6%** | **95** | **131.4h** |
 
-_9,213.4M total tokens processed. 95.6% cache hit rate._
+_9,262.1M total tokens processed. 95.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 39,725 | 1.6M | 28.7M | 8,537.0M | 393.2M | 95.6% | 86 | 127.1h |
+| claude-opus-5-5 | 40,090 | 1.6M | 29.0M | 8,583.0M | 395.6M | 95.6% | 87 | 127.9h |
 | gpt-5.5 | 1,655 | 6.4M | 558K | 112.7M | 0 | 94.6% | 6 | 2.5h |
 | gpt-6.1-sol | 368 | 2.9M | 63K | 121.2M | 0 | 97.7% | 1 | 0.4h |
 | claude-haiku-5-5 | 191 | 440 | 72K | 7.7M | 901K | 89.6% | 5 | 0.5h |
 | gpt-6-luna | 7 | 64K | 35 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **41,946** | **10.9M** | **29.4M** | **8,778.8M** | **394.1M** | **95.6%** | **94** | **130.5h** |
+| **Total** | **42,311** | **11.0M** | **29.7M** | **8,824.8M** | **396.5M** | **95.6%** | **95** | **131.4h** |
 
-_9,213.4M total tokens processed. 95.6% cache hit rate._
+_9,262.1M total tokens processed. 95.6% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -80,7 +80,7 @@ _9,213.4M total tokens processed. 95.6% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-29 10:51 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-29 17:07 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
