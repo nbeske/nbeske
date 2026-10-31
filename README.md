@@ -34,10 +34,10 @@ I work directly with every client, explain things in plain English, and don't lo
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Interactive AI generation | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
-| Worker/headless AI generation | 3.5h | 12.1h | 26.8h | 26.8h |
-| Additive observed work | 3.5h | 12.1h | 26.8h | 26.8h |
+| Worker/headless AI generation | 3.8h | 13.1h | 30.6h | 30.6h |
+| Additive observed work | 3.8h | 13.1h | 30.6h | 30.6h |
 | Interactive sessions | 0 | 0 | 0 | 0 |
-| Worker sessions | 34 | 62 | 128 | 128 |
+| Worker sessions | 17 | 57 | 128 | 128 |
 
 _Screen time from screen-time-history:daily-observations; collection status: stale, unavailable. *365-day estimate uses observed calendar coverage._
 
@@ -45,7 +45,7 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 24 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 25 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
@@ -82,7 +82,7 @@ _13,151.0M total tokens processed. 95.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-31 00:21 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-31 07:07 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
