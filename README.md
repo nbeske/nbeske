@@ -30,55 +30,55 @@ I work directly with every client, explain things in plain English, and don't lo
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 24h | 168h | 273.6h | ~3567h* |
-| Input activity (Mac) | 6.2h | 6.2h | 6.2h | unavailable |
+| Screen time (Mac) | 24h | 168h | 258.8h | ~3567h* |
+| Input activity (Mac) | 7.2h | 13.4h | 13.4h | unavailable |
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Interactive AI generation | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
-| Worker/headless AI generation | 3.2h | 21.8h | 65.2h | 70.4h |
-| Additive observed work | 3.2h | 21.8h | 65.2h | 70.4h |
+| Worker/headless AI generation | 11.7h | 27.4h | 75.6h | 82.0h |
+| Additive observed work | 11.7h | 27.4h | 75.6h | 82.0h |
 | Interactive sessions | 0 | 0 | 0 | 0 |
-| Worker sessions | 69 | 171 | 338 | 370 |
+| Worker sessions | 70 | 164 | 346 | 383 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
-_Input activity from macos-input-activity:idle-cutoff-300s (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-10 (0.7 of 28 days sampled); earlier days are not counted._
+_Input activity from macos-input-activity:idle-cutoff-300s (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-10 (1.7 of 28 days sampled); earlier days are not counted._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 36 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 37 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 159,105 | 6.2M | 106.3M | 34,763.2M | 1,342.2M | 96.3% | 339 | 524.8h |
+| claude-opus-5-5 | 159,819 | 6.2M | 106.6M | 34,857.7M | 1,347.6M | 96.3% | 352 | 526.2h |
 | gpt-5.5 | 902 | 2.4M | 274K | 59.5M | 0 | 96.0% | 2 | 0.9h |
 | gpt-6.1-sol | 368 | 2.9M | 63K | 121.2M | 0 | 97.7% | 1 | 0.4h |
 | gpt-5.6-luna | 60 | 224K | 6K | 1.2M | 0 | 84.9% | 1 | 0.0h |
 | claude-sonnet-5-5 | 27 | 60 | 11K | 1.4M | 201K | 87.7% | 3 | 0.1h |
 | claude-haiku-5-5 | 5 | 20 | 20 | 0 | 185K | 0.0% | 3 | 0.0h |
 | gpt-6-luna | 3 | 73K | 15 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **160,470** | **11.9M** | **106.7M** | **34,946.7M** | **1,342.5M** | **96.3%** | **346** | **526.3h** |
+| **Total** | **161,184** | **11.9M** | **107.0M** | **35,041.2M** | **1,348.0M** | **96.3%** | **359** | **527.6h** |
 
-_36,407.8M total tokens processed. 96.3% cache hit rate._
+_36,508.2M total tokens processed. 96.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 162,995 | 6.4M | 108.9M | 35,488.1M | 1,372.3M | 96.3% | 355 | 538.5h |
+| claude-opus-5-5 | 163,709 | 6.4M | 109.2M | 35,582.7M | 1,377.8M | 96.3% | 368 | 539.9h |
 | gpt-5.5 | 1,655 | 6.4M | 558K | 112.7M | 0 | 94.6% | 6 | 2.5h |
 | gpt-6.1-sol | 368 | 2.9M | 63K | 121.2M | 0 | 97.7% | 1 | 0.4h |
 | claude-haiku-5-5 | 196 | 460 | 72K | 7.7M | 1.0M | 87.8% | 8 | 0.5h |
 | gpt-5.6-luna | 60 | 224K | 6K | 1.2M | 0 | 84.9% | 1 | 0.0h |
 | claude-sonnet-5-5 | 27 | 60 | 11K | 1.4M | 201K | 87.7% | 3 | 0.1h |
 | gpt-6-luna | 10 | 137K | 50 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **165,311** | **16.1M** | **109.6M** | **35,732.6M** | **1,373.6M** | **96.3%** | **370** | **542.1h** |
+| **Total** | **166,025** | **16.1M** | **110.0M** | **35,827.2M** | **1,379.1M** | **96.3%** | **383** | **543.5h** |
 
-_37,232.1M total tokens processed. 96.3% cache hit rate._
+_37,332.5M total tokens processed. 96.3% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -87,7 +87,7 @@ _37,232.1M total tokens processed. 96.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-12 02:12 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-12 08:30 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
