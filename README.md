@@ -30,25 +30,25 @@ I work directly with every client, explain things in plain English, and don't lo
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 24h | 168h | 348.2h | ~4354h* |
-| Input activity (Mac) | 2.3h | 33h | 33h | unavailable |
+| Screen time (Mac) | 24h | 168h | 372.2h | ~4354h* |
+| Input activity (Mac) | 6.6h | 39.6h | 39.6h | unavailable |
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Interactive AI generation | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
-| Worker/headless AI generation | 1.3h | 29.3h | 83.8h | 92.2h |
-| Additive observed work | 1.3h | 29.3h | 83.8h | 92.2h |
+| Worker/headless AI generation | 4.7h | 29.7h | 86.0h | 96.9h |
+| Additive observed work | 4.7h | 29.7h | 86.0h | 96.9h |
 | Interactive sessions | 0 | 0 | 0 | 0 |
-| Worker sessions | 85 | 327 | 545 | 589 |
+| Worker sessions | 54 | 288 | 536 | 589 |
 
 _Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
 
-_Input activity from macos-input-activity:idle-cutoff-300s (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-10 (5.7 of 28 days sampled); earlier days are not counted._
+_Input activity from macos-input-activity:idle-cutoff-300s (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-10 (6.7 of 28 days sampled); earlier days are not counted._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 41 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 42 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
@@ -85,7 +85,7 @@ _40,738.9M total tokens processed. 96.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-17 07:05 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-17 08:03 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
