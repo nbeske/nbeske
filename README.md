@@ -54,29 +54,29 @@ _AI session 365-day totals cover 44 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 172,390 | 7.1M | 111.1M | 36,612.8M | 1,366.8M | 96.4% | 648 | 556.7h |
+| claude-opus-5-5 | 172,602 | 7.1M | 111.3M | 36,713.2M | 1,372.7M | 96.4% | 648 | 557.0h |
 | gpt-5.6-luna | 60 | 224K | 6K | 1.2M | 0 | 84.9% | 1 | 0.0h |
 | claude-sonnet-5-5 | 50 | 113 | 24K | 2.6M | 438K | 85.6% | 7 | 0.2h |
 | claude-haiku-5-5 | 5 | 20 | 20 | 0 | 185K | 0.0% | 3 | 0.0h |
 | gpt-6-luna | 3 | 73K | 15 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **172,508** | **7.4M** | **111.2M** | **36,616.7M** | **1,367.4M** | **96.4%** | **659** | **556.9h** |
+| **Total** | **172,720** | **7.4M** | **111.3M** | **36,717.1M** | **1,373.3M** | **96.4%** | **659** | **557.2h** |
 
-_38,102.7M total tokens processed. 96.4% cache hit rate._
+_38,209.2M total tokens processed. 96.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-5-5 | 193,111 | 7.6M | 126.4M | 40,990.6M | 1,566.5M | 96.3% | 697 | 622.3h |
+| claude-opus-5-5 | 193,323 | 7.6M | 126.5M | 41,091.0M | 1,572.5M | 96.3% | 697 | 622.7h |
 | gpt-5.5 | 1,655 | 6.4M | 558K | 112.7M | 0 | 94.6% | 6 | 2.5h |
 | gpt-6.1-sol | 368 | 2.9M | 63K | 121.2M | 0 | 97.7% | 1 | 0.4h |
 | claude-haiku-5-5 | 196 | 460 | 72K | 7.7M | 1.0M | 87.8% | 8 | 0.5h |
 | gpt-5.6-luna | 60 | 224K | 6K | 1.2M | 0 | 84.9% | 1 | 0.0h |
 | claude-sonnet-5-5 | 50 | 113 | 24K | 2.6M | 438K | 85.6% | 7 | 0.2h |
 | gpt-6-luna | 10 | 137K | 50 | 0 | 0 | 0.0% | 2 | 0.0h |
-| **Total** | **195,450** | **17.2M** | **127.1M** | **41,236.3M** | **1,568.1M** | **96.3%** | **716** | **626.0h** |
+| **Total** | **195,662** | **17.2M** | **127.2M** | **41,336.7M** | **1,574.0M** | **96.3%** | **716** | **626.3h** |
 
-_42,948.8M total tokens processed. 96.3% cache hit rate._
+_43,055.3M total tokens processed. 96.3% cache hit rate._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -85,7 +85,7 @@ _42,948.8M total tokens processed. 96.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-20 00:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-20 01:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
