@@ -30,7 +30,7 @@ I work directly with every client, explain things in plain English, and don't lo
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 24h | 120.1h | 564.3h | ~5175h* |
+| Screen time (Mac) | 24h | 144.1h | 588.3h | ~5257h* |
 | Input activity (Mac) | 2.5h | 24.3h | 89h | ~1945h* |
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Interactive AI generation | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -87,7 +87,7 @@ _49,812.6M total tokens processed. 96.4% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-27 08:05 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-27 11:14 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
